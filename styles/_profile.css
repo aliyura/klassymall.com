@@ -1,0 +1,112 @@
+/*--profile--*/
+.profile-container{
+    margin-bottom: 10%;
+    width: 98%;
+    margin-left: 1em;
+}
+.profile{
+    padding: 0;
+	width: 100%;
+}
+.profile-top {
+    background-color: #2ecc71;   background: -moz-linear-gradient(top,  #2ecc71 0%, #25bb65 50%, #25bb65 51%,  #2ecc71 100%);    background: linear-gradient(top,  #2ecc71 0%, #25bb65 50%, #25bb65 51%,  #2ecc71 100%);    background: -webkit-linear-gradient(top,  #2ecc71 0%, #25bb65 50%, #25bb65 51%,  #2ecc71 100%);   background: -ms-linear-gradient(top,  #2ecc71 0%, #25bb65 50%, #25bb65 51%,  #2ecc71 100%);   background: -o-linear-gradient(top,  #2ecc71 0%, #25bb65 50%, #25bb65 51%,  #2ecc71 100%);   border-color:  #2ecc71;
+    text-align: center;
+	padding: 1.5em;
+}
+.profile-top img {
+    vertical-align: middle;
+    border: 4px solid #F2B33F;
+    border-radius: 63%;
+}
+.profile-top h4 {
+    font-size: 1.1em;
+    color: #fff;
+    margin: .5em 0;
+}
+.profile-top h5 {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.59);
+}
+h4.title3 {
+    padding: 1em;
+    background-color: rgb(79, 82, 186);
+    color: rgba(206, 207, 243, 0.9);
+}
+.profile-text {
+    width: 50%;
+    padding: 1.5em 3em;
+    margin: auto;
+}
+.profile-row.row-middle {
+    margin: 1em 0;
+}
+.profile-left {
+    float: left;
+    width: 15%;
+}
+.profile-right {
+    float: left;
+    width: 85%;
+}
+.row-middle .profile-right {
+    border-top: 1px dotted #25bb65;
+    border-bottom: 1px dotted #25bb65;
+    padding: 1em 0;
+}
+.profile-row .profile-icon {
+    font-size: 1.4em;
+	margin-top: 0.6em;
+	color: #6F6F6F;
+}
+i.fa.fa-mobile.profile-icon {
+    font-size: 2em;
+}
+i.fa.fa-facebook.profile-icon {
+    font-size: 1.6em;
+    margin-top: .3em;
+}
+.profile-right h4 {
+    font-size: 1em;
+    color: #504E4E;
+    font-weight: 500;
+}
+.profile-right p {
+    font-size: .9em;
+    color: #999;
+    margin-top: .4em;
+}
+.profile-btm ul {
+    background-color: #e4e4e4;
+}
+.profile-btm ul li {
+    display: inline-block;
+    width: 32.5%;
+    text-align: center;
+    padding: 1.35em 0;
+}
+.profile-btm ul li:nth-child(2) {
+    border-left: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+}
+.profile-btm ul li h4 {
+    font-size: 1.3em;
+    color: #25bb65;
+    font-weight: 900;
+}
+.profile-btm ul li h5 {
+    font-size: 0.9em;
+    color: #6F6F6F;
+    margin-top: 0.3em;
+}
+@media(max-width:600px){
+    .profile-container{
+        width: 100%;
+        margin:0;
+    }
+    .profile-text {
+        width: 100%;
+        padding: 1.5em 3em;
+        margin: auto;
+    }
+}
+/*--//profile--*/

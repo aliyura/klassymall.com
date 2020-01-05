@@ -1,0 +1,28 @@
+.orderDetails-body{
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 10%;
+    margin-top: 1em;
+}
+.item_display_container,
+.order-description{
+    width: 101%;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-left: -1em;
+        box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+         -o-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+         -moz-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+        -webkit-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07); 
+}
+.order-description{
+  width: 99.9%;  
+}
+.status-desc{
+    padding: 1em;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.payment-status-desc{
+  padding: 1.2em;   
+}

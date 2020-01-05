@@ -1,0 +1,274 @@
+body
+{
+    width: 100%;
+    height: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000000;
+    background: none  !important;
+}
+.top_bar_contact_item{
+    width: 50%;
+}
+.logo{
+    width: 100%;
+    top: 38%;
+}
+.logo .wishlist_icon{
+    display: inline-block;
+    float: left;
+    margin-top: -5px;
+    margin-left: -15px;
+}
+.logo  .logo-text{
+    color:  #333 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo  .logo-motto{
+    font-size: 12px;
+}
+.sign_container{
+    width: 98%;
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.sign_container .sign-header{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 1em;
+    text-align: center;
+    
+}
+.sign_container .sign-wrp{
+    width: 40%;
+    min-height: 400px;
+    margin: auto;
+    padding: 1em;
+    background: #fff;
+
+    border: solid 1px #e8e8e8;
+    border-bottom: 1px solid #d0d0d0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+	z-index: 2;
+}
+ .sign-logo{
+        width: 80%;
+}
+.sign_container .sign-wrp .in-wrp{
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+}
+.sign_container .sign-wrp .sign-header{
+  margin-bottom: 1em;
+}
+.sign_container .input_field
+{
+	width: 100%;
+	height: 50px;
+	padding-left: 25px;
+	border: solid 1px #e5e5e5;
+	border-radius: 5px;
+	outline: none;
+	color: #000;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+    margin-bottom: 15px;
+}
+.sign_container .input_field:focus,
+.text_field:focus
+{
+	border-color: #b2b2b2;
+}
+.sign_container .input_field:hover,
+.sign_container .text_field:hover
+{
+	border-color: #b2b2b2;
+}
+.sign_container .input_field::-webkit-input-placeholder,
+.text_field::-webkit-input-placeholder
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.3);
+}
+.sign_container .input_field:-moz-placeholder,
+.text_field:-moz-placeholder
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.3);
+}
+.sign_container .input_field::-moz-placeholder,
+.text_field::-moz-placeholder
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.3);
+} 
+.sign_container .input_field:-ms-input-placeholder,
+.text_field:-ms-input-placeholder
+{ 
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.3);
+}
+.sign_container .input_field::input-placeholder,
+.text_field::input-placeholder
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: rgba(0,0,0,0.3);
+}
+.sign_container .text_field
+{
+	width: 100%;
+	height: 160px;
+	padding-left: 25px;
+	padding-top: 15px;
+	border: solid 1px #e5e5e5;
+	border-radius: 5px;
+	color: #000;
+	outline: none;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+    margin-bottom: 15px;
+}
+.sign_container .button
+{
+	padding-left: 35px;
+	padding-right: 35px;
+	color: #FFFFFF;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin-top: 24px;
+    float: right;
+    margin-right: 15px;
+    min-width:  130px !important
+}
+.alert-warning{
+    margin: 0;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 99px;
+    color: #721c24;
+    background-color: rgba(248, 215, 218, 0.43);
+    display: none;
+    text-align: center;
+}
+.successAlert{
+    margin: 0;
+    padding: 2px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    border-radius: 0;
+    display: none;
+    
+}
+.sign_container .label-check
+{
+  float: left;
+  margin-left: 1.5em;
+  margin-top: 1em;
+}
+.sign_container .link-section
+{
+   margin-top: 7em;
+   text-align: left;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
+    
+}
+.sign_container .link
+{
+   color:#25bb65
+}
+.sign_container .sign-logo{
+  width: 100px;
+}
+.sign_container  .group-in *{
+    width: 44.8%;
+}
+.sign_container  .group-in-3d *{
+    width: 29.7%;
+}
+.register-home{
+    text-align: center;
+    margin-top: 2em;
+    margin-left: -1em;
+}
+.register-home a{
+	padding: 5px 8px;
+    margin: 5px 10px;
+	color:#333;
+	font-size:1em;
+    border-color: #25bb65;
+	text-decoration:none;
+    text-align: center;
+}
+.register-home a:hover{
+	background:#25bb65;
+}
+.register-home .link{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.sign_container .registration-fields{
+    padding: 2em;
+    text-align: left;
+    
+ } 
+.sigb-btn{
+    min-width: 150px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+/*-- //register --*/
+@media(max-width:600px){
+    .sign_container .registration-fields{
+        padding: 0;
+        text-align: left;
+     } 
+    .sign_container .sign-wrp{
+        width: 90%;
+        margin: auto;
+        margin-left: 10px;
+    }
+    .top_bar_content{
+        position: absolute;
+        right: 20px;
+    }
+    .sign_container{
+      margin-top: 30%;   
+    }
+    .sign-logo{
+        width: 80%;
+    }
+    .more{
+        display: none;
+    }
+}
+@media(max-width:370px){
+    .logo .logo-text{
+         display:none;
+    }
+    .logo .logo-img{
+         margin-top:-20px;
+    }
+}

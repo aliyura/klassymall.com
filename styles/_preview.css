@@ -1,0 +1,231 @@
+/*********************************
+5. Single Preview
+*********************************/
+.single_product
+{
+	padding-top: 110px;
+	padding-bottom: 140px;
+}
+.image_list{
+  margin-bottom: 1em;    
+}
+.image_list li
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 165px;
+	border: solid 1px #e8e8e8;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+	margin-bottom: 15px;
+	cursor: pointer;
+	padding: 15px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+	overflow: hidden;
+}
+.image_list li:last-child
+{
+	margin-bottom: 0;
+}
+.image_list li:hover
+{
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+}
+.image_list li img
+{
+	width: 100%;
+    height: 100%;
+}
+.image_selected
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: calc(100% + 15px);
+	height: 525px;
+	-webkit-transform: translateX(-15px);
+	-moz-transform: translateX(-15px);
+	-ms-transform: translateX(-15px);
+	-o-transform: translateX(-15px);
+	transform: translateX(-15px);
+	border: solid 1px #e8e8e8;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+	overflow: hidden;
+	padding: 15px;
+}
+.image_selected img
+{
+    width: 100%;
+    height: 100%;
+}
+.product_description
+{
+	padding-left: 50px;
+}
+.product_category
+{
+	font-size: 12px;
+	color: rgba(0,0,0,0.5);
+}
+.product_name
+{
+	font-size: 30px;
+	font-weight: 500;
+	margin-top: 11px;
+}
+.product_rating
+{
+	margin-top: 7px;
+}
+.product_rating i
+{
+	margin-right: 4px;
+}
+.product_rating i::before
+{
+	font-size: 13px;
+}
+.product_text
+{
+	margin-top: 27px;
+}
+.product_price b
+{
+	font-size: 20px;
+}
+.product_text p:last-child
+{
+	margin-bottom: 0px;
+}
+
+/*********************************
+7. Brands
+*********************************/
+
+.brands
+{
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.brands_slider_container
+{
+	height: 130px;
+	border: solid 1px #e8e8e8;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+	padding-left: 97px;
+	padding-right: 97px;
+}
+.brands_slider
+{
+	height: 100%;
+}
+.brands_item
+{
+	height: 100%;
+}
+.brands_item img
+{
+	max-width: 100%;
+}
+.brands_nav
+{
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	padding: 5px;
+	cursor: pointer;
+}
+.brands_nav i
+{
+	color: #e5e5e5;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.preview-checkout{
+    background: none !important;
+    color: #ccc !important;
+    border: 1px solid #ccc !important;
+}
+.brands_nav:hover i
+{
+	color: #676767;
+}
+.brands_prev
+{
+	left: 40px;
+}
+.brands_next
+{
+	right: 40px;
+}
+.old_price{
+    text-decoration:line-through;
+    font-size:16px;
+    color:#333;
+    opacity:0.6;
+    padding-left:10px;
+    font-weight:bold;
+}
+.price-description-modal{
+    background:#fff;
+    padding:10px;
+    position:absolute;
+    right:0;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    border-top-left-radius:99px;
+    border-bottom-left-radius:99px;
+    padding-left:15px;
+    color:#2ecc71;
+    font-size:18px;
+    z-index:10;
+    display:none;
+}
+@media(max-width:600px){
+    .price-description-modal{
+        right:0;
+        top:420px;
+        display:block;
+        
+    }
+    .product_color,s.product_quantity{
+       width: auto; 
+    }
+    .cart_button{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .input_field
+    {
+        width: 100%;
+    }
+}
+@media(max-width:400px){
+    .price-description-modal{
+        top:320px;
+        display:block;
+    }
+
+}
+

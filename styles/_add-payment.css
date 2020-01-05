@@ -1,0 +1,113 @@
+.add-payment-container{
+    height: 300px;
+    margin: auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.add-payment-wrapper button img{
+    width: 50px;
+    height: 50px;
+}
+.upper{
+    text-transform: uppercase;
+}
+p{
+    margin: 0;
+}
+.payment-status-desc{
+    padding: 1em;
+    
+}
+.cartItems-description-wrp{
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 0;
+}
+.item_display_container,
+.order-description{
+    width: 101%;
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-left: -1em;
+        box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+         -o-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+         -moz-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07);
+        -webkit-box-shadow: inset 0 1px 1px 1px rgba(0,0,0,.07); 
+}
+.order-description{
+  width: 99.9%;  
+}
+.make-order-controllers{
+    width: 100%;
+    display: block;
+    margin-left: -1em;
+}
+.make-order-controllers *{
+     display: inline-block;
+    width:calc(100%/2.1);
+    font-size: 14px;
+}
+.card{
+    margin-bottom: 1em;
+}
+.checkout-form{
+    padding-left: 0;
+    margin-top: 2em;
+}
+.btn{
+    min-width:100px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}
+.about-title{
+      width: 100%;
+      background: #fff;
+      border-radius: 2px;
+       padding-top: 1em;
+}
+.change-shipping-city{
+    width: 100%;
+    margin-top: 1em;
+}
+.change-shipping-city select{
+    width: 100%;
+    min-width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #ccc;
+    background: #333;
+}
+ @media(max-width:800px){
+     .about-title{
+         width: 100%;
+         background: #FFF;
+         border-radius: 5px;
+     }  
+     .order-description,
+     .list-group-item,
+     .plus_five{
+        width: 104%;  
+     }
+     .plus_nine, .card.plus_nine{
+         width: 106%;
+     }
+     .multi-wrp
+     .multi-child{
+        padding-right: 0;
+     }
+     .address-accuracy{
+         margin-bottom: 1em;
+     }
+ } 
+
+@media(max-width:800px){
+    .add-payment-wrapper{
+        width:100%;
+    }
+    .add-payment-wrapper button{
+       width: 70%;
+        margin-top: 20%;
+    }
+}

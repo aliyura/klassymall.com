@@ -1,0 +1,108 @@
+.upload-container{
+   width: 90%;
+   margin: auto;
+}
+.title{
+    padding: 1em;
+    padding-left: 0;
+}
+.selected-samples-wrp{
+    width: 100%;
+    min-height: 50px;
+    background: #fff;
+    display: block;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+   border: 2px solid #dee2e4;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: .5em;
+    padding: 5px;
+      -webkit-box-shadow: 0 10px 6px -10px #000;
+       -moz-box-shadow: 0 10px 6px -10px #000;
+            box-shadow: 0 10px 6px -10px #000;
+}
+.selected-samples-wrp::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+ .uploadPreview-wrapper{
+    width:150px;
+    height: 150px;
+    min-width: 100px;
+    margin: 5px;
+    border:1px solid #ccc;
+    display:inline-block;
+    position: relative;
+    border: 1px solid #ccc;
+    opacity: 0.1;
+    background: #fefefe;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: #f2f2f2;
+    padding: 5px;
+}
+ .uploadPreview-wrapper img, .uploadPreview-wrapper .loaderWrapper{
+    width:100%;
+    height:100%;
+}
+.uploadPreview-wrapper .loaderWrapper{
+    background:rgba(234, 80, 76, 0.97);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+ .uploadPreview-wrapper .loaderWrapper img{
+    width: 15px;
+    height: 15px;
+    margin-top: 40%;
+}
+ .loadMore-loader{
+    width: 15px;
+    height: 15px;
+    margin-top: -1em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+ .uploadPreview-wrapper.active, .uploadPreview-wrapper:first-child{
+    opacity: 1;
+      border: 2px solid #25bb65;
+}
+.uploadPreview-wrapper:hover{
+    width:15.5%;
+    border: 2px solid #25bb65;
+}
+.upload-container .upload-header{
+   border-bottom: 1px solid #ccc;
+    background: #fff;
+    margin-bottom: 2em;
+}
+ .upload-body .input-container .field{
+   font-weight: normal;
+   background: #fff;
+   padding-left:0;
+}
+ .upload-body input{
+   width: 100%;
+  margin-left: 0;
+ margin-bottom: 1em;
+}
+
+@media(max-width:800px){
+     .uploadPreview-wrapper{
+         width: 100px;
+         height: 90px;
+    }
+    .upload-container{
+       width: 100%;
+       margin: auto;
+        padding: 15px;
+   }
+}

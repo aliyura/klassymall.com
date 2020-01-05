@@ -1,0 +1,17 @@
+.aboutus_wrp{
+    width: 100%;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+.about-img-wrp,.about-info-wrp{
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.about-info-wrp{
+    
+}
+.about-img-wrp img{
+    width: 100%;
+    height: 100%;
+}
